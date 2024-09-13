@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header styles */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Navigation styles */
+nav {
+  background: #444;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Section styles */
+section {
+  padding: 2rem 0;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.job, .degree {
+  margin-bottom: 1rem;
+}
+
+.job h3, .degree h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.job p, .degree p {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact styles */
+section#contact p {
+  margin-bottom: 0.5rem;
+}
+
+section#contact a {
+  color: #333;
+  text-decoration: none;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+}
